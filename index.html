@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>The basic language of the web:HTML</title>
   </head>
   <body>
     <header>
-      <h1 >📘 The Code Magazine [DEMO]</h1>
+      <h1>📘 The Code Magazine [DEMO]</h1>
 
       <nav>
         <a href="Blog.html" target="_blank">Blog</a>
@@ -19,15 +19,17 @@
     </header>
     <article>
       <header>
-      <h2>The Basic Language of the Web: HTML</h2>
-      <img
-        src="./image/laura-jones.jpg"
-        alt="image of the author"
-        width="50px"
-        height="50px"
-      />
-      <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
-      <p>
+        <h2>The Basic Language of the Web: HTML</h2>
+        <img
+          src="./image/laura-jones.jpg"
+          alt="image of the author"
+          width="50px"
+          height="50px"
+        />
+        <p id="author">
+          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        </p>
+
         <img
           src="./image/post-img.jpg"
           alt="image of a html codes"
@@ -35,6 +37,7 @@
           height="200"
         />
       </header>
+      <p>
         All modern websites and web applications are built using three
         <em>fundamental</em> technologies: HTML, CSS and JavaScript. These are
         the languages of the web.
@@ -91,32 +94,26 @@
       <p>Hopefully you learned something new here. See you next time!</p>
     </article>
     <h4><strong>Related post</strong></h4>
-      <ul>
-        <li><img src="/image/related-1.jpg" 
-          width="100px"
-          height="100px" 
-          alt=""/>
-          <a href="#">How to learn web development</a>
-          <p>BY Jonas Schmedtmann</p>
-          </li>
-        <li><img src="/image/related-2.jpg"
-           width="100px"
-           height="100px" 
-           alt=""/>
-           <a href="#">The Unknown power of CSS</a>
-           <p>By Jim Dillon</p>
-           </li>
-        <li><img src="/image/related-3.jpg"
-           width="100px"
-           height="100px"
-           alt=""/>
-           <a href="#">Why javascript is Awesome</a>
-           <p>By Suvaksha</p>
-           </li>     
-      </ul>
-    
+    <ul class="related">
+      <li>
+        <img src="/image/related-1.jpg" width="100px" height="100px" alt="" />
+        <a href="#">How to learn web development</a>
+        <p class="related-author">BY Jonas Schmedtmann</p>
+      </li>
+      <li>
+        <img src="/image/related-2.jpg" width="100px" height="100px" alt="" />
+        <a href="#">The Unknown power of CSS</a>
+        <p class="related-author">By Jim Dillon</p>
+      </li>
+      <li>
+        <img src="/image/related-3.jpg" width="100px" height="100px" alt="" />
+        <a href="#">Why javascript is Awesome</a>
+        <p class="related-author">By Suvaksha</p>
+      </li>
+    </ul>
+
     <footer>
-      Copyright &copy; 2027 by The Code Magazine.
+      <p id="copyright">Copyright &copy; 2027 by The Code Magazine.</p>
     </footer>
   </body>
 </html>
