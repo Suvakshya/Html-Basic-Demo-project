@@ -1,0 +1,35 @@
+body {
+  border: 5px solid black;
+  font-family: sans-serif;
+}
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(235, 232, 229);
+}
+.rate {
+  font-weight: 500px;
+}
+.free-shopping {
+  color: gray;
+}
+a:link {
+  color: black;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.btn-addtocart {
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+}
+.btn-addtocart:hover {
+  background-color: white;
+  color: #000;
+  border: none;
+  font-weight: bold;
+}
