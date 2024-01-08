@@ -1,6 +1,7 @@
 body {
   border: 5px solid black;
   font-family: sans-serif;
+  line-height: 1.5;
 }
 .title {
   text-transform: uppercase;
