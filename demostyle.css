@@ -43,7 +43,7 @@ a:hover {
 .btn-addtocart:hover {
   background-color: white;
   color: #000;
-  border: none;
+  border-top: 5px solid black;
   font-weight: bold;
 }
 .para {
